@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Folder access",
+    "description": "Whitelist and blacklist of folders DSH tools may access, edited from the Folder access panel in the left sidebar. The blacklist always wins; an empty whitelist only applies the blacklist. Saving applies immediately and persists to ~/.dsh/folder-access-policy.json. It narrows tool calls only, never widens the DSH sandbox; file tools are checked by exact path arguments, and shell commands by absolute paths in the command text plus their working directory, so paths assembled inside a script cannot be fully prevented."
+  }
+}
