@@ -1,5 +1,5 @@
 window.__ModuleLoader__.load({
-  id: '@local/dsh-folder-access',
+  id: 'dsh-folder-access',
   factory(require) {
     const React = require('react')
     const h = React.createElement

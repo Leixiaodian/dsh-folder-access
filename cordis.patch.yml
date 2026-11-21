@@ -2,4 +2,4 @@
 # The sidebar panel writes this policy to $DSH_HOME/folder-access-policy.json.
 - insert:
     - id: folder-access
-      name: '@local/dsh-folder-access'
+      name: 'dsh-folder-access'

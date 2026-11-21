@@ -1,9 +1,10 @@
 {
-  "name": "@local/dsh-folder-access",
+  "name": "dsh-folder-access",
   "version": "0.1.0",
   "private": true,
   "type": "module",
   "description": "Folder access whitelist and blacklist for DeepSeek Harness, configured from a sidebar panel and enforced on every tool call.",
+  "license": "MIT",
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
@@ -17,6 +18,7 @@
     "cordis.patch.yml",
     "locale/*.json",
     "README.md",
+    "LICENSE",
     "icon.svg"
   ],
   "dsh": {
